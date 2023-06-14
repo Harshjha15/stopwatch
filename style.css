@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: rgb(0, 0, 0,.7);
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    height: 100vh;
+}
+
+.stopwatch{
+    background-color: rgb(1, 1, 1,.8);
+    padding: 20px 24px;
+    border-radius: 15px;
+}
+.timerdisplay{
+    font-size: 50px;
+    font-weight: 600;
+}
+.button{
+    margin-top:20px ;
+}
+.btn{
+    background: none;
+    border:none;
+    font-size: 20px;
+    color: aliceblue;
+    background-color:var(--clr);
+    padding: 12px 24px;
+    border-radius: 8px;
+    /* no need for phone  */
+    margin-inline: 12px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(100, 98, 27);;
+    font-weight: bolder;
+}
